@@ -1,0 +1,642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a30dd505f376b4482eac08b48c8460, type: 3}
+  m_Name: TravelDay_24
+  m_EditorClassIdentifier: 
+  eventDay: 24
+  locationName: Shinjuku
+  transportCost: 2500
+  specialOptionCost: 800
+  requiredAffection: 140
+  normalAffectionGain: 0
+  specialAffectionGain: 30
+  heroineCostume: {fileID: 21300000, guid: a6ddd60d26f48d549bc7a2426bc34bd9, type: 3}
+  normalRoute:
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC624\uB298\uC740 \uC2E0\uC8FC\uCFE0\uC5D0 \uAC00\uBCFC\uAE4C)"
+    backgroundImage: {fileID: 0}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 8300000, guid: 9767b294caed30447b7a63873a76dfc3, type: 3}
+    bgmVolume: 1
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC2E0\uC8FC\uCFE0\uC5ED... \uB113\uACE0 \uC0AC\uB78C\uB3C4 \uC5C4\uCCAD
+      \uB9CE\uB124)"
+    backgroundImage: {fileID: 21300000, guid: 2da72a6cf04583f4d974c60070c5057d, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 8300000, guid: 398a631f92a5b2e4fbbf36e67e05e653, type: 3}
+    sfxVolume: 1
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC624... \uBC31\uD654\uC810 \uC625\uC0C1\uC5D0 \uC2E0\uC0AC\uB97C \uB9CC\uB4E4\uC5B4\uB1A8\uB124)"
+    backgroundImage: {fileID: 21300000, guid: af8945acf3ae81043a406f369de64d95, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uD3C9\uD654\uB86D\uB2E4)"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uB3C4\uC2DC \uD55C\uAC00\uC6B4\uB370 \uC774\uB807\uAC8C \uD070 \uC815\uC6D0\uC774\uB77C\uB2C8)"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uB3CC\uC544\uB2E4\uB154\uB354\uB2C8 \uBC30\uACE0\uD504\uB124... \uADDC\uCE74\uCE20
+      \uBA39\uC73C\uB7EC \uAC00\uBCFC\uAE4C)"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC880 \uC77C\uCC0D \uC654\uB354\uB2C8 \uC6E8\uC774\uD305\uB3C4 \uC5C6\uACE0
+      \uC88B\uB124)"
+    backgroundImage: {fileID: 21300000, guid: caa055eedeb1906468a547d70f864325, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uD1A0\uD638\uBE4C\uB529...)"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC774 \uADFC\uCC98\uAC00 \uD1A0\uC694\uCF54 \uAD11\uC7A5\uC778\uAC00?)"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uC624\uB298\uC740 \uC774\uB9CC \uB3CC\uC544\uAC00\uC57C\uACA0\uC5B4)"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  specialRoute:
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC624\uB298\uC740 \uC2E0\uC8FC\uCFE0\uB85C \uAC00\uB294\uAC70\uC57C?"
+    backgroundImage: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: cd1948efab23f174bbd906bea635d876, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 8300000, guid: ba5db7d13c109ab4ab21aea41fb2ee48, type: 3}
+    bgmVolume: 1
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uB124. \uB3C4\uCFC4\uC5D0 \uC654\uC73C\uBA74 \uC2E0\uC8FC\uCFE0\uB97C
+      \uC548\uAC00\uBCFC \uC218\uB294 \uC5C6\uC8E0"
+    backgroundImage: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 2a4fb6e3296bd0f4eb3b0a04bd9286e0, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC2E0\uC8FC\uCFE0\uC5ED... \uC0AC\uB78C\uC774 \uB9CE\uB2E4\uACE0 \uB4E4\uC5C8\uB294\uB370
+      \uC608\uC0C1\uBCF4\uB2E4 \uB354 \uB9CE\uB124\uC694..."
+    backgroundImage: {fileID: 21300000, guid: 2da72a6cf04583f4d974c60070c5057d, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 8300000, guid: 398a631f92a5b2e4fbbf36e67e05e653, type: 3}
+    sfxVolume: 1
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uADF8\uCE58? \uC5EC\uAE30\uB294 \uAE38\uCC3E\uB294\uAC83\uB3C4 \uD798\uB4E4\uC5B4"
+    backgroundImage: {fileID: 21300000, guid: 2da72a6cf04583f4d974c60070c5057d, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC624, \uC5EC\uAE30 \uBC31\uD654\uC810 \uC625\uC0C1\uC5D0 \uC2E0\uC0AC\uAC00
+      \uC788\uB124\uC694"
+    backgroundImage: {fileID: 21300000, guid: af8945acf3ae81043a406f369de64d95, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uADF8\uB7EC\uB124? \uC2E0\uAE30\uD558\uB2E4"
+    backgroundImage: {fileID: 21300000, guid: af8945acf3ae81043a406f369de64d95, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC5EC\uAE34 \uC0B0\uCC45\uD558\uAE30 \uC9C4\uC9DC \uC88B\uB124\uC694"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uADF8\uB7EC\uAC8C, \uD3C9\uD654\uB86D\uACE0 \uC88B\uB2E4"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "(\uCE20\uD0A4\uB098\uAC00\uC528\uAC00 \uC660\uC9C0 \uB4E4\uB5A0\uC788\uB294
+      \uAC83 \uAC19\uC740\uB370...?)"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: 
+    line: 
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 21300000, guid: 529c746011376834392748974f27f5f7, type: 3}
+    isSpecialMoment: 1
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC65C \uB610 \uC5BC\uBE60\uC9C4 \uD45C\uC815\uC73C\uB85C \uADF8\uB7EC\uACE0\uC788\uC5B4?"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uADF8\uB0E5...\uC608\uC058\uB2E4...\uC2F6\uC5B4\uC11C..."
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC5D0... \uADF8\uB798? \uBB50\uC57C~"
+    backgroundImage: {fileID: 21300000, guid: 5698fa1b649c9de478b069c8bc603c4e, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uADDC\uCE74\uCE20 \uC2DD\uB2F9\uC740 \uC5B4\uB51C\uAC00\uB098 \uBE44\uC2B7\uD55C\uAC83
+      \uAC19\uC544"
+    backgroundImage: {fileID: 21300000, guid: caa055eedeb1906468a547d70f864325, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uADF8\uB7EC\uAC8C\uC694. \uC778\uD14C\uB9AC\uC5B4\uBD80\uD130 \uC74C\uC2DD\uAE4C\uC9C0
+      \uD06C\uAC8C \uB2E4\uB978\uAC8C \uC5C6\uB294\uAC83 \uAC19\uB124\uC694"
+    backgroundImage: {fileID: 21300000, guid: caa055eedeb1906468a547d70f864325, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uB9DE\uC544, \uC6E8\uC774\uD305 \uC624\uB798\uAC78\uB9AC\uB294 \uAC83\uB3C4
+      \uADF8\uB798"
+    backgroundImage: {fileID: 21300000, guid: caa055eedeb1906468a547d70f864325, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC624\uB298\uB3C4 \uC88B\uC558\uC5B4\uC694"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 8300000, guid: cff698020c482f747b6c089bfab60866, type: 3}
+    bgmVolume: 1
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC751, \uB098\uB3C4. \uC870\uC2EC\uD788 \uAC00"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "......\uC800\uAE30...\r"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 21300000, guid: 2cd2a83e9d0af8c4dab1561cde71b024, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uAC15\uB9BC\uC528"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uB124?"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC74C... \uC544\uB0D0, \uC544\uBB34\uAC83\uB3C4..."
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 1
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: 
+    line: 
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: 
+    line: "(\uC5B4\uB518\uAC00 \uC6B0\uC6B8\uD55C\uAC74\uC9C0 \uC544\uC26C\uC6B4\uAC74\uC9C0
+      \uBAA8\uB97C \uC800 \uD45C\uC815\uC744 \uADF8\uB0E5 \uC9C0\uB098\uCE60 \uC218
+      \uC5C6\uC5C8\uB2E4)"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uADF8\uB7F0 \uC5BC\uAD74\uC744 \uD558\uACE0\uC11C\uB294 \uC544\uBB34\uAC83\uB3C4
+      \uC544\uB2C8\uB77C\uB1E8..."
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "......\uC870\uAE08 \uAC78\uC744\uAE4C?"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uADF8\uB798\uC694"
+    backgroundImage: {fileID: 21300000, guid: a8cec2e2e282bd449a1dc8a591ba7e09, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: 
+    line: "(\uBCC4 \uB9D0\uC5C6\uC774 \uCE20\uD0A4\uB098\uAC00\uC528\uB97C \uB530\uB77C
+      \uAC77\uB2E4 \uBCF4\uB2C8 \uC5B4\uB518\uC9C0 \uC775\uC219\uD55C \uC2E0\uC0AC\uC5D0
+      \uB3C4\uCC29\uD588\uB2E4)"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 8300000, guid: 398a631f92a5b2e4fbbf36e67e05e653, type: 3}
+    sfxVolume: 1
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC5EC\uAE34..."
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC751, \uC775\uC219\uD55C \uACF3\uC774\uC9C0?"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 21300000, guid: 2a4fb6e3296bd0f4eb3b0a04bd9286e0, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uB108\uC758\uC774\uB984\uC740 \uC601\uD654\uC5D0 \uB098\uC654\uB358 \uACF3\uC774\uB2C8\uAE4C"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uC544...!"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uAC15\uB9BC\uC528\uC640 \uAF2D \uC640\uBCF4\uACE0 \uC2F6\uC5C8\uC5B4"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 1
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "...\uC608\uC804\uBD80\uD130 \uB9D0\uC57C"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 21300000, guid: 2cd2a83e9d0af8c4dab1561cde71b024, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: ...?
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC544\uB0D0. \uACE0\uB9C8\uC6CC \uAC15\uB9BC\uC528. \uC774\uC820 \uC9C4\uC9DC
+      \uB3CC\uC544\uAC00\uC790"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 21300000, guid: 2a4fb6e3296bd0f4eb3b0a04bd9286e0, type: 3}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "\uAD1C\uCC2E\uC740\uAC70\uC5D0\uC694?\r"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uCE20\uD0A4\uB098\uAC00"
+    line: "\uC751, \uC774\uC820 \uAD1C\uCC2E\uC544, \uC815\uB9D0\uB85C"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: "\uB098\uAC15\uB9BC"
+    line: "...\uADF8\uB798\uC694"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
+  - speaker: 
+    line: "(\uBBF8\uC18C\uB97C \uAC00\uBA74\uC0BC\uC544 \uAC10\uC815\uC744 \uC228\uAE30\uB824\uB294
+      \uCE20\uD0A4\uB098\uAC00\uC528\uC5D0\uAC8C \uB354\uB294 \uCE90\uBB3C\uC744
+      \uC218 \uC5C6\uC5C8\uB2E4)"
+    backgroundImage: {fileID: 21300000, guid: 9291767f9369724408e5b41452c8adba, type: 3}
+    characterSprite: {fileID: 0}
+    cgIllustration: {fileID: 0}
+    isSpecialMoment: 0
+    useFade: 0
+    checkAffectionBranch: 0
+    bgmClip: {fileID: 0}
+    bgmVolume: 0
+    sfxClip: {fileID: 0}
+    sfxVolume: 0
