@@ -9,6 +9,14 @@
 ## 프리뷰
 | 타이틀 화면 |
 <img width="1337" height="780" alt="스크린샷 2026-09-03 221236" src="https://github.com/user-attachments/assets/1de250b7-d95c-4fe7-8069-66d839b1b247" />
+| 맵 화면 |
+<img width="1337" height="777" alt="스크린샷 2026-09-05 231853" src="https://github.com/user-attachments/assets/f787e011-d3ea-471c-83cf-a80d76d35fc4" />
+| 크레인 게임 |
+<img width="1337" height="776" alt="스크린샷 2026-09-05 232020" src="https://github.com/user-attachments/assets/280ef2d3-b8cf-4866-b944-efab1f000a26" />
+| 상점 상호작용 |
+<img width="1331" height="775" alt="스크린샷 2026-09-05 232043" src="https://github.com/user-attachments/assets/7b83f403-238b-42ff-8af7-1ebeb5680450" />
+| 비주얼 노벨 UI |
+<img width="1338" height="778" alt="스크린샷 2026-09-05 232203" src="https://github.com/user-attachments/assets/87fe6e45-5eac-468d-9fcb-ac53c6b02dc6" />
 ---
 ## 핵심 기능 및 특징
 
