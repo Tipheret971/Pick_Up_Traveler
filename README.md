@@ -25,19 +25,19 @@
 
 ### 2. [핵심 기능 2: 익숙한 크레인 게임 기믹]
 - 일본 크레인 게임에서 가져온 기믹
-- 현지에서 느낀 감상을 최대한 비슷하게 재현
+- 크레인으로 상품을 들어올리고 방향을 돌려가며 아래로 떨어뜨리는 일련의 과정을 물리적으로 구현
 ---
 ## 기술 스택 및 아키텍처
 - **Engine & Language**: Unity, C#
 - **Design Pattern**: Singleton
-- **Asset / Tools**: 유니티 에셋 스토어 [2D Casual UI / Arcades Pack 02 / InteriorAsset / POLYGON city pack], 폰트 [Thaleah_PixelFont], [Google Gemini]
+- **Asset / Tools**: 유니티 에셋 스토어 [2D Casual UI / Arcades Pack 02 / InteriorAsset / POLYGON city pack], 폰트 [Thaleah_PixelFont], 사용한 AI 모델 [Google Gemini]
 ---
 ## 프로젝트 구조
 ```text
 Assets/
 ├── Scripts/            # 스크립트
-├── Material/           # 사용한 머터리얼
+├── Material/           # 머터리얼
 ├── Resources/
-│   ├── Audio/          # 사용한 오디오 파일
-│   ├── Img/            # 사용한 이미지 파일
+│   ├── Audio/          # 오디오 파일
+│   ├── Img/            # 이미지 파일
 └   └── TravelData/     # 날짜별 비주얼노벨 데이터
